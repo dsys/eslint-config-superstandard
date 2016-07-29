@@ -10,5 +10,5 @@ install:
 	npm install
 
 .PHONY: publish
-publish: build
+publish:
 	npm publish
