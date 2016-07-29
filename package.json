@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-superstandard",
+  "version": "1.0.0",
+  "description": "Even more standardized.",
+  "author": "Alex Kern <alex@kern.io> (http://kern.io)",
+  "homepage": "https://github.com/usepavlov/eslint-config-superstandard#readme",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/usepavlov/eslint-config-superstandard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usepavlov/eslint-config-superstandard/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint-config-standard": "^5.3.5"
+  }
+}
