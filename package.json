@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-superstandard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Even more standardized.",
   "author": "Alex Kern <alex@kern.io> (http://kern.io)",
   "homepage": "https://github.com/usepavlov/eslint-config-superstandard#readme",
