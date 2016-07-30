@@ -11,7 +11,7 @@
     "prefer-spread": ["error"],
     "prefer-template": ["error"],
 
-    "object-curly-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
     "computed-property-spacing": ["error", "never"],
     "newline-before-return": ["error"],
 
