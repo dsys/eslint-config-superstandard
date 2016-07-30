@@ -1,5 +1,25 @@
 {
   "extends": "standard",
   "rules": {
+    "dot-notation": ["error"],
+    "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+    "no-var": ["error"],
+    "consistent-return": ["error"],
+
+    "prefer-const": ["error"],
+    "prefer-rest-params": ["error"],
+    "prefer-spread": ["error"],
+    "prefer-template": ["error"],
+
+    "object-curly-spacing": ["error", "never"],
+    "computed-property-spacing": ["error", "never"],
+    "newline-before-return": ["error"],
+
+    "no-negated-condition": ["error"],
+    "complexity": ["error", 5],
+    "max-params": ["error", 4],
+    "max-depth": ["error", 5],
+    "max-len": ["error", 120, 2],
+    "max-lines": ["error", 500]
   }
 }
