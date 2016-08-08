@@ -1,5 +1,5 @@
 {
-  "parser": ["babel"],
+  "parser": "babel",
   "extends": "standard",
 
   "plugins": [
@@ -30,12 +30,12 @@
 
     "no-warning-comments": ["warn", { "terms": ["todo", "fixme"], "location": "start" }],
 
-    "generator-star-spacing": "off",
-    "new-cap": "off",
-    "array-bracket-spacing": "off",
-    "object-curly-spacing": "off",
-    "object-shorthand": "off",
-    "arrow-parens": "off",
+    "generator-star-spacing": ["off"],
+    "new-cap": ["off"],
+    "array-bracket-spacing": ["off"],
+    "object-curly-spacing": ["off"],
+    "object-shorthand": ["off"],
+    "arrow-parens": ["off"],
 
     "babel/new-cap": ["error", { "newIsCap": true, "capIsNew": false }]
   }
