@@ -20,6 +20,7 @@
     "max-params": ["error", 4],
     "max-depth": ["error", 5],
     "max-len": ["error", 120, 2],
-    "max-lines": ["error", 500]
+    "max-lines": ["error", 500],
+    "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "start"}]
   }
 }
