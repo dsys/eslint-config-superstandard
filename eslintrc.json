@@ -1,5 +1,11 @@
 {
+  "parser": ["babel"],
   "extends": "standard",
+
+  "plugins": [
+    "babel"
+  ],
+
   "rules": {
     "dot-notation": ["error"],
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
@@ -21,6 +27,16 @@
     "max-depth": ["error", 5],
     "max-len": ["error", 120, 2],
     "max-lines": ["error", 500],
-    "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "start"}]
+
+    "no-warning-comments": ["warn", { "terms": ["todo", "fixme"], "location": "start" }],
+
+    "generator-star-spacing": "off",
+    "new-cap": "off",
+    "array-bracket-spacing": "off",
+    "object-curly-spacing": "off",
+    "object-shorthand": "off",
+    "arrow-parens": "off",
+
+    "babel/new-cap": ["error", { "newIsCap": true, "capIsNew": false }]
   }
 }
